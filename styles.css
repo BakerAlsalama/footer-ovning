@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: white;
+    color: black;
+    margin: 0;
+}
+
+.header {
+    background-color: #1c8282;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Lexend", sans-serif;
+    margin: 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+#container2 {
+    display: flex;
+    flex: 1;
+}
+
+.content {
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid white;
+    box-shadow: inset 0 0 20px #ffffff00;
+    outline: 1px solid;
+    outline-color: #ffffff80;
+    outline-offset: 0px;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.content:hover {
+    border: 1px solid white;
+    box-shadow: inset 0 0 20px #ffffff8c;
+    outline-color: #ffffff00;
+    outline-offset: 15px;
+}
+
+#container2 .content:first-child {
+    border: 1px solid #2873b5;
+    box-shadow: inset 0 0 20px #2873b500;
+    outline-color: #2873b580;
+}
+
+#container2 .content:first-child:hover {
+    border: 1px solid #2873b5;
+    box-shadow: inset 0 0 20px #2873b58c;
+    outline-color: #2873b500;
+}
+
+#container2 .content:last-child {
+    border: 1px solid #b52828;
+    box-shadow: inset 0 0 20px #b5282800;
+    outline-color: #b5282880;
+}
+
+#container2 .content:last-child:hover {
+    border: 1px solid #b52828;
+    box-shadow: inset 0 0 20px #b528288c;
+    outline-color: #b5282800;
+}
+
+#container .content {
+    border: 1px solid #2ab528;
+    box-shadow: inset 0 0 20px #2ab52800;
+    outline-color: #2ab52880;
+}
+
+#container .content:hover {
+    border: 1px solid #2ab528;
+    box-shadow: inset 0 0 20px #2ab5288c;
+    outline-color: #2ab52800;
+}
+
+footer {
+    background-color: #1c8282;
+    color: white;
+    padding: 20px 10vw;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 80vw;
+    font-family: "Lexend", sans-serif;
+}
+
+
+#mainFooterDiv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerDiv {
+    padding: 5px;
+}
+
+.footerDiv a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.footerDiv a:hover {
+    color: white;
+    font-weight: bolder;
+    text-decoration: underline;
+}
